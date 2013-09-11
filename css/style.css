@@ -45,8 +45,8 @@ a {color:#000000;}
 a:visited,active {color:#666666;}
 .hide {display:none;}
 /*Header*/
-#topbar {background:url(images/topbg.jpg) repeat-x; height:89px;}
-#topbar #TopSection {width:882px; margin:auto;}
+#topbar {background-color: #353535;}
+#topbar #TopSection {width:882px; margin:auto; height: 43px;}
 #sitename {display:block; height:40px; float:left; padding:3px; font:Georgia, "Times New Roman", Times, serif; font-size:30px; font-weight:normal; color:#FFFFCC;}
 #sitename span {text-transform:lowercase; font-style:italic; color:#D1DDED; font-size:34px;}
 #sitename a, #sitename a:visited, #sitename a:active, #sitename a:hover{color:#FFFFCC; text-decoration:none;}
@@ -58,8 +58,8 @@ a:visited,active {color:#666666;}
 #topbarnav .searchform { float:right; margin:0px 15px 0px 0px;}
 .searchform .keywordfield {border:solid 1px #333333; background:#F8F2DA; padding:3px;}
 #topbarnav .topnavitems {float:right; display:block;}
-#wrap #header { background:url(images/header.jpg) no-repeat; height:229px; margin-top:10px;}
-#header .introtext {display:block; padding:60px 100px 25px 0px; text-align:right; font-weight:normal; color:#FFFFFF; font-size:25px;}
+#wrap #header {}
+#header .introtext {display:block;text-align:right; font-weight:normal; color:#FFFFFF; font-size:25px;}
 .highlight {background:#FFFFFF; color:#0099CC;}
 .highlight3 {color:#D1DDED; font-size:28px; font-style:bold;}
 .highlight2 {color:#FFFF99; font-size:28px; font-style:italic;}
@@ -69,16 +69,20 @@ a:visited,active {color:#666666;}
 /* Top Menu */
 #topmenu {list-style:none; text-align:center; padding-top:4px;}
 #topmenu li {display:inline;}
-#topmenu a, #topmenu a:visited, #topmenu a:active {	display:block;	text-decoration:none; color:#9B7746; float:left; 	height:30px; padding:9px 15px 0px 17px; background:url(images/menubg1.jpg) no-repeat right top;}
-#topmenu a:hover {display:block; text-decoration:none; color:#333333; float:left; height:30px; padding:9px 15px 0px 17px; background:url(images/menubg2.jpg) no-repeat right top;}
-#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {display:block; text-decoration:none; color:#333333; float:left; height:30px; padding:9px 15px 0px 17px; background:url(images/menubg2.jpg) no-repeat right top;}
+#topmenu a, #topmenu a:visited, #topmenu a:active {	display:block;	text-decoration:none; color:#ffffff; float:left; padding:10px;/*border-color: #353535;
+border-width: 1px;
+border-style: solid;*/
+}}
+#topmenu a:hover {display:block; text-decoration:none; color:#333333; float:left; padding:9px 15px 0px 17px;}
+#topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {display:block; text-decoration:none; color:#ffffff; float:left; padding:10px;color: #353535;
+background-color: #FFF;}
 /* Contents */
 #contents {font-size:11px;}
 #contents a:hover {text-decoration:none;}
 #contents p {color:#666666; line-height:22px;}
 #contents h2 {color:#8D6932; font-weight:normal;}
 
-#left { width:570px; float:left; padding:5px 20px 5px 5px; background:url(images/sidebarbg1.jpg) repeat-y right;}
+#left { width:882px; float:left; padding:5px 20px 5px 5px; background:url(images/sidebarbg1.jpg) repeat-y right;}
 #left h3, #left h4, #left h5 { color:#009999; display:block; padding:5px; margin-bottom:10px; margin-top:10px;}
 #left h3 {font-size:20px; font-family:Arial, Helvetica, sans-serif; font-weight:normal;}
 #left h4 {font-size:18px; font-family:Arial, Helvetica, sans-serif; font-weight:normal;}
@@ -166,7 +170,7 @@ blockquote p {font-size:12px; }
 #homecontents h2 a:hover { text-decoration:none; color:#000000; border-bottom:solid 1px #000000; background:#ffffcc;}
 .postinfo {display:block; text-align:right; color:#999999; font-family:Arial, Helvetica, sans-serif; font-size:10px}
 
-#homecontents2 {float:left; width:530px; padding:0px 0px 0px 20px; margin:5px 5px 5px 0px;  background:url(images/sidebarbg1.jpg) repeat-y left;}
+#homecontents2 {float:left; width:100%; padding:0px 0px 0px 20px; margin:5px 5px 5px 0px;  background:url(images/sidebarbg1.jpg) repeat-y left;}
 #homecontents2 p, left p, right p {margin:10px 0px 10px 0px;}
 #homecontents2 h2 {display:block; color:#8d6932; border-bottom:solid 1px #E1D2A6; font-size:22px;}
 #homecontents2 h2 a{text-decoration:none; color:#8d6932;}
