@@ -32,17 +32,16 @@ a:visited,active {color:#666666;}
 #wrap #header {}
 #header .introtext {display:block;text-align:right; font-weight:normal; color:#353535; font-size:40px;}
 .highlight {background:#FFFFFF; color:#0099CC;}
-.highlight3 {color:#099; font-size:40px; font-style:bold;}
+.highlight3 {color:#099; font-size:40px;}
 .highlight2 {color:#FFFF99; font-size:28px; font-style:italic;}
 
 /* Top Menu */
 #topmenu {list-style:none; text-align:center; padding-top:4px;font-family: 'Open Sans', sans-serif;text-transform:lowercase;}
 #topmenu li {display:inline;}
-#topmenu a, #topmenu a:visited, #topmenu a:active {	display:block;	text-decoration:none; color:#ffffff; float:left; padding:10px;/*border-color: #353535;
-border-width: 1px;
-border-style: solid;*/
-}}
-#topmenu a:hover {display:block; text-decoration:none; color:#333333; float:left; padding:9px 15px 0px 17px;}
+#topmenu a, #topmenu a:visited, #topmenu a:active {	display:block;	text-decoration:none; color:#ffffff; float:left; padding:10px;
+}
+#topmenu a:hover {display:block; text-decoration:none; color:#ffffff; float:left; padding:10px;color: #353535;
+background-color: #FFF; opacity:0.5;}
 #topmenu .active a, #topmenu .active a:visited, #topmenu .active a:active {display:block; text-decoration:none; color:#ffffff; float:left; padding:10px;color: #353535;
 background-color: #FFF;}
 /* Contents */
