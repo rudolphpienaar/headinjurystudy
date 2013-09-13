@@ -26,7 +26,7 @@ screendim = new function() {
 	 };
 }
 
-window.onload = function() {
+resize = function(){
 	 screendim.dimensions_find();
 	 pageTopBar	= document.getElementById('topbar');
 	 pageBody 	= document.getElementById('wrap');
@@ -34,15 +34,17 @@ window.onload = function() {
 	
 	 topBarHeight	= 43;//pageTopBar.offsetHeight;
 	 creditHeight	= 47+22;//pageCredit.offsetHeight;
-
-
-	 window.console.log(screendim.height);
-
-	 window.console.log(topBarHeight);
-
-	 window.console.log(creditHeight);
 	
 	 bodyHeight 		= screendim.height - (topBarHeight + creditHeight);
 	 str_bodyHeight	= bodyHeight.toString() + 'px';
 	 pageBody.style.height = str_bodyHeight;
+}
+
+window.onload = function() {
+	resize();
+
+}
+
+window.onresize = function(event) {
+  resize();
 }
